@@ -3,3 +3,16 @@
     margin-right: auto;
     margin-left: auto;
 }
+.center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.center :hover{
+    color: brown;
+}
