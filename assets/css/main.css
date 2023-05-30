@@ -1,8 +1,5 @@
 .Display{
-  width: 1000px;
-  height: 50px;
-  justify-content: center;
-}
+  display: block;
 .center{
     display: flex;
     margin-left: auto;
@@ -10,13 +7,23 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     justify-content: center;
-    gap: 25px;
-    overflow: auto;
-  width: 100%;
-  height: 100%;
+    gap: 75px;
+   
+    margin-top: 15px;
+ 
+ 
 }
+.center-a{
+  text-decoration: rgb(200, 200, 30);
+}
+
     
 
 .center :hover{
     color: brown;
+}
+.image{
+  margin-top: 20px;
+  width: 26%;
+  border-radius: 10%;
 }
